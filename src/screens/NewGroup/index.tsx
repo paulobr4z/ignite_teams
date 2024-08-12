@@ -53,6 +53,8 @@ export function NewGroup() {
 
         <Button 
           title="Criar"
+          style={{ marginTop: 20 }}
+          onPress={handleNew}
         />
       </Content>
     </Container>
